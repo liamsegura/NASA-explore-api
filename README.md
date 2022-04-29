@@ -3,4 +3,4 @@ Search through NASA's data base to see which data was uploaded on a specific dat
 
 Check it out here:
 
-https://nasa-explore.netlify.app/nasa-pod.html
+https://nasa-explore.netlify.app
