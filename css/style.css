@@ -52,7 +52,9 @@ body{
   background-size:auto;
   max-height: 100vh;
 }
-
+a{
+  text-decoration: none;
+}
 img{
   max-width: 400px;
   max-height: 300px;
@@ -69,7 +71,7 @@ img{
 #nasa-explore{
   padding: 2px 2px;
   color: white;
-  background-color: rgb(43, 43, 43);;
+  background-color: rgb(43, 43, 43);
 }
 .item{
   padding: 100px;
@@ -87,6 +89,7 @@ img{
 }
 .column input{
   width: 50%;
+  color: rgb(43, 43, 43);
 }
 .column button{
   width: 50%;
