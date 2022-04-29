@@ -1,0 +1,155 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* animation */
+.fade-in-text {
+  display: inline-block;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  text-align: center;
+  color: rgb(43, 43, 43);
+  background-color: rgb (43, 43, 43);
+  background-size:auto;
+  max-height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.home-page-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#nasa-explore{
+  padding: 2px 2px;
+  color: white;
+  background-color: rgb(43, 43, 43);
+}
+.item{
+  padding: 100px;
+}
+.column{
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.column h1{
+  font-size: 4rem;
+  line-height: 1;
+}
+.column input{
+  width: 50%;
+  color: rgb(43, 43, 43);
+  margin-top: 32vh;
+}
+.column button{
+  width: 50%;
+  color: rgb(43, 43, 43);
+}
+#input-section{
+  display: flex;
+  flex-direction: column;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media only screen and (max-width:1000px){
+  .column{
+    display: block;
+  }
+  .column h1{
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  .item{
+    padding: 20px;
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .column input{
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width:400px){
+  .column{
+    display: block;
+  }
+  .column h1{
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  .item{
+    padding: 20px;
+  }
+  img{
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width:400px){
+  .column{
+    display: block;
+  }
+  .column h1{
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .item{
+    padding: 20px;
+  }
+  img{
+    max-width: 90%;
+  }
+}
