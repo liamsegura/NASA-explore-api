@@ -93,6 +93,7 @@ img{
 }
 .column button{
   width: 50%;
+  color: rgb(43, 43, 43);
 }
 #input-section{
   display: flex;
