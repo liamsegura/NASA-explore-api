@@ -1,7 +1,8 @@
 # NASA-explore-api
 Search through NASA's data base to see which image was logged by NASA on a specific date of your choice.
 
-<img width="301" alt="Screenshot 2022-04-30 at 13 54 16" src="https://user-images.githubusercontent.com/102547056/166106474-9b61c49d-9697-49e2-95c5-df15561d60ab.png">
+<img width="301" alt="Screenshot 2022-04-30 at 13 57 12" src="https://user-images.githubusercontent.com/102547056/166106537-27c61b2e-9cc7-4366-ac79-d8c6aca90ee5.png">
+
 
 Check it out here:
 
